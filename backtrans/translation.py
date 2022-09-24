@@ -2,8 +2,8 @@ from googletrans import Translator
 import nltk
 from nltk.tokenize import sent_tokenize
 import time
-from BackTranslation.languages import LANGUAGES, LANG_CODES
-from BackTranslation.translated import Translated
+from backtrans.languages import LANGUAGES, LANG_CODES
+from backtrans.translated import Translated
 import typing
 import httpcore
 

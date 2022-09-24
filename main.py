@@ -23,7 +23,7 @@ def google_backtrans():
 
 
 def baidu_backtrans():
-    from BackTranslation import BackTranslation_Baidu
+    from backtrans import BackTranslation_Baidu
     trans = BackTranslation_Baidu(appid='20220923001352148', secretKey='otTvG7M7b7AArM08GqKt')
     result = trans.translate('我今天真的是非常开心', src='auto', tmp='en')
     print(result.source_text)

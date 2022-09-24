@@ -6,7 +6,7 @@ import json
 
 import nltk
 from nltk.tokenize import sent_tokenize
-from BackTranslation.translated import Translated
+from backtrans.translated import Translated
 
 try:
     nltk.data.find('tokenizers/punkt')
@@ -14,7 +14,7 @@ except LookupError:
     nltk.download('punkt')
 
 
-class BackTranslation_Baidu(object):
+class BackTranslationBaidu(object):
 
     def __init__(self, appid, secretKey):
         if not appid:

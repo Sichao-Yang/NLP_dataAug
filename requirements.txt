@@ -1,2 +1,6 @@
-googletrans>=4.0
+googletrans==4.0.0-rc1
 nltk
+nlpcda
+numpy
+tensorflow
+bert4keras
